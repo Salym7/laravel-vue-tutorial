@@ -35,7 +35,7 @@ class UserResourceController extends Controller
 
         //?limit=20
         $limit = intval($request->query('limit', 20));
-        // $limit = min($limit, 20);
+        //$limit = min($limit, 20);
         $collection->limit($limit);
 
         //?offset=0

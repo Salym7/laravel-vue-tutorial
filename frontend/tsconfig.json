@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrs": ".",
+    "modul": "esnext",
+    "modulResolution": "Node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
